@@ -59,6 +59,7 @@ export default class Map extends Component {
               height: 48,
             }}
             src="https://avatars2.githubusercontent.com/u/2254731?v=4"
+            alt="map"
           />
         </Marker>
       </MapGL>
