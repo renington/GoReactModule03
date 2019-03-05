@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
+import React, { Fragment } from 'react';
+import GlobalStyle from '../../styles/global';
+import Map from '../../components/Map';
+import SideBar from '../../components/SideBar';
 
-export default class Main extends Component {
-  state = {};
+const Main = () => (
+  <Fragment>
+    <GlobalStyle />
+    <Map />
+    <SideBar />
+  </Fragment>
+);
 
-  render() {
-    return (
-      <div>
-        <h1>Hello World</h1>
-      </div>
-    );
-  }
-}
+export default Main;
