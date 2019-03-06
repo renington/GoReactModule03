@@ -20,6 +20,8 @@
       {
         "argsIgnorePatter": "^_"
       }
-    ]
+    ],
+    "consistent-return": "off",
+    "no-useless-return": "off"
   }
 }

@@ -19,7 +19,7 @@ export const Container = styled.div`
         flex: 1;
         align-items: center;
         border-bottom: 1px solid #e6ecf0;
-        justify-content: space-around;
+        justify-content: flex-start;
 
         img {
           margin-right: 15px;
@@ -29,6 +29,7 @@ export const Container = styled.div`
         }
 
         .user-info {
+          width: 60%;
           margin-right: 15px;
 
           p {
@@ -38,6 +39,7 @@ export const Container = styled.div`
         }
 
         button {
+          margin-right: 10px;
           font-size: 10px;
           color: #fff;
           border-radius: 3px;
